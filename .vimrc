@@ -414,6 +414,9 @@ nnoremap <silent> <leader><space> :noh<cr>
 vmap < <gv
 vmap > >gv
 
+"" jk is much faster than Esc
+imap jk <Esc>
+
 "" To make changes to a system file, can override the read-only permissions by typing :w!!
 cmap w!! %!sudo tee > /dev/null %
 

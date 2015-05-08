@@ -80,11 +80,6 @@ unset file;
 # Autocorrect typos in path names when using `cd`
 shopt -s cdspell;
 
-# Add tab completion for many Bash commands
-if [ -f /etc/bash_completion ]; then
-	source /etc/bash_completion;
-fi;
-
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
@@ -129,6 +124,7 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# use autojump plugin for better cd'ing
 . /usr/share/autojump/autojump.sh
 
 alias chem='cd ~/Dokumenty/chematica'
