@@ -423,6 +423,10 @@ cmap w!! %!sudo tee > /dev/null %
 "" Open current line on GitHub
 noremap ,o :!echo `git url`/blob/`git rev-parse --abbrev-ref HEAD`/%\#L<C-R>=line('.')<CR> \| xargs open<CR><CR>
 
+"" edit and source VIMRC easily
+nnoremap <leader>ev :vsplit $MYVIMRC<cr>
+nnoremap <leader>sv :source $MYVIMRC<cr>
+
 "" Custom configs
 
 " vim-python
@@ -466,3 +470,6 @@ let g:tagbar_autofocus = 1
 if filereadable(expand("~/.vimrc.local"))
   source ~/.vimrc.local
 endif
+
+"" Making vim window transparent when opened in terminal
+hi Normal ctermbg=none
