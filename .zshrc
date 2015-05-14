@@ -1,6 +1,6 @@
 export ZSH=/home/agnieszka/.oh-my-zsh
 
-ZSH_THEME="blinks"
+ZSH_THEME="mypygmalion"
 
 COMPLETION_WAITING_DOTS="true"
 
@@ -8,7 +8,7 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(autojump colorize command-not-found git gradle pip ubuntu)
+plugins=(autojump colorize command-not-found git gradle pip ubuntu virtualenv)
 
 export PATH="/home/agnieszka/Dokumenty/chematica/zmq/local/bin:/home/agnieszka/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/agnieszka/.cabal/bin:/opt/cabal/1.20/bin:/opt/ghc/7.8.4/bin:/opt/happy/1.19.4/bin:/opt/alex/3.1.3/bin:/home/agnieszka/.cabal/bin:/opt/cabal/1.20/bin:/opt/ghc/7.8.4/bin:/opt/happy/1.19.4/bin:/opt/alex/3.1.3/bin:/home/agnieszka/.cabal/bin:/opt/cabal/1.20/bin:/opt/ghc/7.8.4/bin:/opt/happy/1.19.4/bin:/opt/alex/3.1.3/bin"
 
