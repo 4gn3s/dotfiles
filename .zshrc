@@ -10,7 +10,7 @@ COMPLETION_WAITING_DOTS="true"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(autojump colorize command-not-found git gradle pip ubuntu virtualenv)
 
-export PATH="/home/agnieszka/Dokumenty/chematica/zmq/local/bin:/home/agnieszka/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/agnieszka/.cabal/bin:/opt/cabal/1.20/bin:/opt/ghc/7.8.4/bin:/opt/happy/1.19.4/bin:/opt/alex/3.1.3/bin:/home/agnieszka/.cabal/bin:/opt/cabal/1.20/bin:/opt/ghc/7.8.4/bin:/opt/happy/1.19.4/bin:/opt/alex/3.1.3/bin:/home/agnieszka/.cabal/bin:/opt/cabal/1.20/bin:/opt/ghc/7.8.4/bin:/opt/happy/1.19.4/bin:/opt/alex/3.1.3/bin"
+export PATH="/home/agnieszka/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/agnieszka/.cabal/bin:/opt/cabal/1.20/bin:/opt/ghc/7.8.4/bin:/opt/happy/1.19.4/bin:/opt/alex/3.1.3/bin:/home/agnieszka/.cabal/bin:/opt/cabal/1.20/bin:/opt/ghc/7.8.4/bin:/opt/happy/1.19.4/bin:/opt/alex/3.1.3/bin:/home/agnieszka/.cabal/bin:/opt/cabal/1.20/bin:/opt/ghc/7.8.4/bin:/opt/happy/1.19.4/bin:/opt/alex/3.1.3/bin"
 
 source $ZSH/oh-my-zsh.sh
 
@@ -38,15 +38,6 @@ alias l='ls -CF'
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
-
-alias chem='cd ~/Dokumenty/chematica'
-alias chemz='cd ~/Dokumenty/chematica/zmq'
-alias chemg='cd ~/Dokumenty/chematica/networks-chemistry-gui'
-alias chem_python='~/Dokumenty/chematica/zmq/local/bin/python'
-alias chemgui='cd ~/Dokumenty/chematica/networks-chemistry-gui/ && gradle run'
-alias chemtests='cd ~/Dokumenty/chematica/zmq/python/chematica/tests'
-alias chemserv='cd ~/Dokumenty/chematica/zmq/ && ./run_server.sh'
-alias chembroker='cd ~/Dokumenty/chematica/zmq/python/chematica/tests/multi_retro/BrokerServer/'
 
 alias gti='git'
 alias g='git'

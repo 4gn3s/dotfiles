@@ -127,14 +127,6 @@ fi
 # use autojump plugin for better cd'ing
 . /usr/share/autojump/autojump.sh
 
-alias chem='cd ~/Dokumenty/chematica'
-alias chemz='cd ~/Dokumenty/chematica/zmq'
-alias chemg='cd ~/Dokumenty/chematica/networks-chemistry-gui'
-alias chem_python='~/Dokumenty/chematica/zmq/local/bin/python'
-alias chemgui='cd ~/Dokumenty/chematica/networks-chemistry-gui/ && gradle run'
-alias chemtests='cd ~/Dokumenty/chematica/zmq/python/chematica/tests'
-alias chemserv='cd ~/Dokumenty/chematica/zmq/ && ./run_server.sh'
-alias chembroker='cd ~/Dokumenty/chematica/zmq/python/chematica/tests/multi_retro/BrokerServer/'
 alias gti='git'
 alias g='git'
 alias ga='git add'

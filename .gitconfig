@@ -1,6 +1,5 @@
 [user]
 name = Agnieszka
-	email = agnieszka.kramarek@imapp.pl
 [alias]
 co = checkout
 ci = commit
